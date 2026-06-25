@@ -1,0 +1,70 @@
+[
+  {
+    "tag": "Emprendedores",
+    "title": "Plan Start",
+    "subtitle": "Ideal para emprendedores.",
+    "features": [
+      "Landing page profesional",
+      "Diseño responsive",
+      "Formulario de contacto",
+      "Botón de WhatsApp",
+      "Integración con redes",
+      "Optimización básica"
+    ],
+    "buttonText": "Solicitar cotización",
+    "buttonLink": "#contacto",
+    "buttonStyle": "outline",
+    "destacado": false
+  },
+  {
+    "tag": "Más elegido",
+    "title": "Plan Web Pro",
+    "subtitle": "Ideal para empresas e instituciones.",
+    "features": [
+      "Sitio web corporativo",
+      "Secciones personalizadas",
+      "Formulario avanzado",
+      "Optimización móvil",
+      "SEO básico",
+      "Soporte de lanzamiento"
+    ],
+    "buttonText": "Solicitar cotización",
+    "buttonLink": "#contacto",
+    "buttonStyle": "primary",
+    "destacado": true
+  },
+  {
+    "tag": "Automatización",
+    "title": "Plan Automation",
+    "subtitle": "Ideal para ordenar procesos.",
+    "features": [
+      "Diagnóstico de flujo",
+      "Formulario inteligente",
+      "Base de datos o Google Sheets",
+      "Notificaciones automáticas",
+      "Correos de confirmación",
+      "Conexión con WhatsApp o CRM"
+    ],
+    "buttonText": "Solicitar diagnóstico",
+    "buttonLink": "#contacto",
+    "buttonStyle": "outline",
+    "destacado": false
+  },
+  {
+    "tag": "A medida",
+    "title": "Plan Custom System",
+    "subtitle": "Ideal para soluciones a medida.",
+    "features": [
+      "Análisis de requerimientos",
+      "Diseño de flujo",
+      "Panel administrativo",
+      "Base de datos",
+      "Pruebas funcionales",
+      "Capacitación y soporte inicial"
+    ],
+    "buttonText": "Hablar del proyecto",
+    "buttonLink": "#contacto",
+    "buttonStyle": "outline",
+    "destacado": false
+  }
+]

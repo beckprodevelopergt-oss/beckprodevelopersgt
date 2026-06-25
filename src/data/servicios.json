@@ -1,0 +1,44 @@
+[
+  {
+    "id": "desarrollo-web",
+    "title": "Desarrollo web",
+    "description": "Sitios web profesionales, rápidos y adaptados a celular para empresas, marcas personales e instituciones.",
+    "link": "#contacto",
+    "icon": "web"
+  },
+  {
+    "id": "landing-pages",
+    "title": "Landing pages",
+    "description": "Páginas enfocadas en campañas, captación de clientes, formularios y conversiones.",
+    "link": "#contacto",
+    "icon": "landing"
+  },
+  {
+    "id": "automatizacion-digital",
+    "title": "Automatización digital",
+    "description": "Conectamos formularios, correos, WhatsApp, bases de datos y flujos para ahorrar tiempo.",
+    "link": "#contacto",
+    "icon": "automation"
+  },
+  {
+    "id": "tiendas-online",
+    "title": "Tiendas online",
+    "description": "Creamos e-commerce funcionales para vender productos o servicios de forma profesional.",
+    "link": "#contacto",
+    "icon": "ecommerce"
+  },
+  {
+    "id": "sistemas-personalizados",
+    "title": "Sistemas personalizados",
+    "description": "Desarrollamos herramientas a la medida para registros, reservas, inventarios, reportes o procesos internos.",
+    "link": "#contacto",
+    "icon": "system"
+  },
+  {
+    "id": "consultoria-soporte",
+    "title": "Consultoría y soporte",
+    "description": "Te acompañamos en la mejora de tu presencia digital, procesos y herramientas tecnológicas.",
+    "link": "#contacto",
+    "icon": "consulting"
+  }
+]
