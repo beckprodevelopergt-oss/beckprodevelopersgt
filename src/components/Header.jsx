@@ -1,10 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const getLink = (hash) => isHome ? hash : `/${hash}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,7 +44,7 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`} id="mainHeader">
       <div className="container header-inner">
-        <a href="#inicio" className="logo" onClick={closeMenu}>
+        <a href={isHome ? "#inicio" : "/"} className="logo" onClick={closeMenu}>
           <img
             src="assets/logo-beckpro-appc.png"
             alt="BeckPro Developer"
@@ -57,33 +61,33 @@ export default function Header() {
         <nav className="nav">
           <ul className={`nav-list ${menuActive ? "active" : ""}`} id="navList">
             <li>
-              <a href="#inicio" className="nav-link" onClick={closeMenu}>
+              <a href={getLink("#inicio")} className="nav-link" onClick={closeMenu}>
                 Inicio
               </a>
             </li>
             <li>
-              <a href="#servicios" className="nav-link" onClick={closeMenu}>
+              <a href={getLink("#servicios")} className="nav-link" onClick={closeMenu}>
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#proceso" className="nav-link" onClick={closeMenu}>
+              <a href={getLink("#proceso")} className="nav-link" onClick={closeMenu}>
                 Proceso
               </a>
             </li>
             <li>
-              <a href="#planes" className="nav-link" onClick={closeMenu}>
+              <a href={getLink("#planes")} className="nav-link" onClick={closeMenu}>
                 Planes
               </a>
             </li>
             <li>
-              <a href="#contacto" className="nav-link" onClick={closeMenu}>
+              <a href={getLink("#contacto")} className="nav-link" onClick={closeMenu}>
                 Contacto
               </a>
             </li>
             <li>
               <a
-                href="#contacto"
+                href={getLink("#contacto")}
                 className="btn btn-primary nav-cta"
                 onClick={closeMenu}
               >
